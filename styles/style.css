@@ -1,0 +1,227 @@
+*{
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* common button */
+.primary-button{
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    padding: 21px 25px 20px 26px;
+    border: 0;
+}
+/* header style start */
+.header{
+    background: url('../images/banner/banner3.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.header-content{
+    text-align: right;
+    width: 525px;
+    padding: 290px 230px 166px 995px;
+}
+.header-title{
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+    margin-bottom: 0;
+}
+.header-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 494px;
+    padding-left: 29px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+/* header style finish */
+/* main style start */
+
+main{
+  max-width: 1600px;
+    background: #FFF;
+  margin: auto;
+}
+/* main style end */
+
+.failures{
+    /* margin: auto 360px; */
+}
+.failures-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 134px;
+    
+}
+.failures-content{
+    margin-top: 140px;
+}
+
+.failures-title{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin-bottom: 0;
+    padding-top: 130px;
+}
+.failures-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    width: 416px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.failures-list li{
+  list-style: none;
+  color:#444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.failures-list li::before{
+    content: "✓";
+    color:#16D887 ;
+    font-size: larger;
+    font-weight: 800;
+    margin-right: 10px;
+}
+/* plan section start */
+.plan{
+  margin: 100px 0;
+  width: 1600px;
+  
+}
+.plan-title{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
+   color:  #151414;
+   margin-bottom: 0;
+}
+.plan-container{
+   display: flex;
+   justify-content: center;
+   gap: 106px;
+}
+.plan-content{
+   text-align: center;
+   
+}
+.plan-content img{
+   margin-top: 50px;
+   margin-bottom: 0;
+   width: 92.958px;
+   height: 92.958px;
+}
+.plan-subject{
+    color:#151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.plan-want{
+    color:#737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+/* plan section end */
+/* banner section style start */
+.banner{
+  margin: 0 220px;
+}
+.banner-container{
+     background: url('../images/watch.png'),url('../images/gradient1.png');
+     background-repeat: no-repeat;
+     height: 40vh;
+     background-blend-mode:soft-light;
+}
+.banner-item{
+    padding:59px 0px 69px 64px ;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+    margin-bottom: 0;
+}
+.call-btn{
+    margin-top: 24px;
+    padding: 21px 36px 20px 36px;
+}
+/* banner section style end */
+/* footer style start */
+footer{
+    background:#151414;
+}
+.footer-container{
+    display: flex;
+}
+.footer-content{
+    padding:130px 230px ;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.footer-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 485px;
+    margin-top: 16px;
+}
+.footer-contact{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    
+}
+.footer-img{
+    margin-top:32px ;
+   margin-right: 10px;
+    
+}
+.subscribe{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+input{
+    padding: 16px 8px;
+    display: block;
+    background:#151414;
+    color:#F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 31px;
+    width: 325px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+
+}
+.sub-btn{
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px 20px 36px;
+    border: 0;
+    margin-top: 16px;
+}
